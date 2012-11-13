@@ -1,0 +1,217 @@
+body {
+	margin: 5px;
+	background-color: #ffffff;
+	background-image: url(../styleImages/backgrounds/pageBg.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+#pageSurround {
+	width: 95%;
+	margin: 0px auto;
+	padding: 5px;
+
+}
+#topHeader {
+	text-align: right;
+	height: 46px;
+	padding-right: 0px;
+	padding-top: 68px;	
+	width: 95%;	
+	margin: 0px auto;
+	/* SKIN VARIABLE IS cAsE SeNsItIvE */
+	background-image: url(../../../images/getLogo.php?skin=KitaBlue);
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+.boxTitleLeft, .boxTitleRight {
+	font-family: "Lucida Sans", "Lucida Sans Unicode", Verdana;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #70cdcc;
+	height: 15px;
+	border-top: 1px solid #E1E1E1;
+	border-left: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+	padding: 5px;
+}
+.boxContentLeft, .boxContentRight {
+	border: 1px solid #E1E1E1;
+	background-color:#FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+	padding-top: 3px;
+	padding-bottom: 5px;
+}
+
+
+.boxCategories {
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 10px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+.colLeft {
+	position: relative;
+	z-index:5;
+	left: 0px;
+	width: 160px; 
+	float: left;
+}
+.colMid {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+.colRight {
+	position: relative;
+	width: 160px; 
+	float: right;
+}
+.boxContent {
+	border: 1px solid #E1E1E1;
+	background-color: #FFFFFF;
+	padding: 10px;
+	color: #333333;
+	margin-bottom: 10px;
+	margin-top: 0px;
+	position: inherit;
+}
+
+
+
+/* CHECKOUT PAGES */
+.colLeftCheckout {
+	position: relative;
+	left: 0px;
+	width: 160px; 
+	padding-left: 15px;
+	padding-right: 5px;
+	float: left;
+}
+.colMainCheckout {
+	position: relative;
+	width: 100%;
+	float: left;
+}
+/* END CHECK OUT PAGES */
+.siteDocs {
+	text-align:center;
+	margin-top: 7px;
+	margin-bottom: 20px;
+}
+.pagination {
+	text-align: right;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+#subCats {
+	text-align:justify;
+	background-color: #ffffff;
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	margin: 0px auto;
+	padding: 3px;
+	float: left;
+	width: 99%;
+	position:inherit;
+}
+.subCat {	
+	text-align: center;
+	padding: 8px;
+	float: left;
+	width: 110px;
+	position:inherit;
+}
+.regSep{
+	padding: 10px 0px 10px 0px;
+	margin: 10px 0px 10px 0px;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+#imgThumbSpace{
+	line-height: 0px;		
+}
+#imgThumbSpace img {
+	padding-right: 3px;
+	padding-bottom: 3px;		
+}
+
+div.latestProds {
+	text-align: center;
+	width: 19%;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	height: 200px;
+	float: left;
+	overflow: hidden;
+	border-right: 1px solid #e1e1e1;
+	position: relative;
+}
+
+/*
+Start Cross-Browser DHTML Menu
+*/
+
+#mainmenu-nav {
+	list-style: none;
+	list-style-type: none;
+	padding-left: 3px;
+	margin: 0px;
+	
+}
+
+.li-nav a {
+	padding: 2px 1px;
+	background-color: #ffffff;
+	width: 140px;
+	display: block;
+	color: #333333;
+	text-decoration: none;
+	margin: 0px;
+	text-indent: 2px;
+}
+.li-nav a:hover {
+	background-color: #ffffff;
+	color: #c3e37e;
+}
+
+.ul-nav, .li-nav {
+	display: block;
+	list-style: none;
+}
+
+.ul-nav {
+	width: 140px;
+	padding: 0px;
+}
+
+.li-nav {	
+	float: left;
+}
+
+.li-nav .ul-nav  {
+	display: none;
+	position: absolute;
+	margin-left: 100px;
+	margin-top: -19px;
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 4px solid #70cdcc;
+	z-index: 99;
+}
+
+a.hassubmenu {
+	background-image: url(../styleImages/more.gif);
+	background-repeat: no-repeat;
+	background-position: 130px 6px;
+}
+
+/*
+End Cross-Browser DHTML Menu
+*/

@@ -1,0 +1,33 @@
++----------------------
+|CubeCart v4 Credits
++----------------------
+
+Developed in the UK by:
+  Al Brookbanks	
+  Martin Purcell
+
+Contributions by:
+  Paula Baker 			- 	Caretta Skins
+  Estelle Winterflood 	- 	Improved Tax Functionality
+  Joseph Fonseka 		- 	Search Engine Optimisation
+  Milos Homola			-	Many bug fixes and general tweaks :) 
+  Bill Wheeler			-	Category caching and feature enhancement
+  Technocrat			-	Lots of nice little performance enhancements 
+
+In particular Al would like to thank...
+  Bill Wheeler 			-	For lending me his code spectacles and light bulbs.
+  Milos Homola			- 	For continual support, bug fixes etc.. :P
+  William Renfrew		- 	For general advice/help.
+  Slim Devices			- 	For allowing us to have MegaZigabytes of music via our SqueezeBox 2 in the office. (Fixed by Martin)
+  Ubuntu				-	For creating a fantastic Linux distro used during development. 
+  Beer, Curry & Pizza 	- 	Goes without saying really...
+  The Missus			-	For understanding late nights and stress. 
+  All our community members especially our moderators and customers.
+
+Martin would like to thank...
+  Apple, Inc			-	20" Core 2 Duo iMac, MacBook Pro, and an iPhone 3GS - These are the things that provided me with geek joy :D
+  Jaegermeister			-	For allowing me to 'wind down' on a Friday night. At...
+  The Square, Harlow	-	For providing me with a place to rock out.
+  #php on EFnet			-	For being a good laugh, and an occasional source of help ;)
+  VersionsApp.com		-	Saving me from command-line headaches
+  

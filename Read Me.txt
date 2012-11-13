@@ -1,0 +1,207 @@
+﻿+--------------------------------------------------------
+| 	CubeCart v4 Install / Upgrade Instructions
++--------------------------------------------------------
+
+Contents:
+
+	1. 	Install Instructions
+	2. 	Upgrade Instructions - version 4 to latest version 4
+	3.	Upgrade Instructions - version 3 to latest version 4
+	4. 	Installing IonCube Loaders
+
+
+Requirements:
+
+	PHP 5.1.0 ≥ (Scripting Language)
+	MySQL 4.1 ≥ (Database Server) - MySQL 5 supported.
+	GD (Image Library) recommended.
+	Linux / Unix (recommended) or Windows* hosting account required.
+	Curl with SSL support required for some shipping/payment modules.
+	
+	* ZendOptimizer or Ioncube will need to be installed on WIndows servers in order to run 
+	CubeCart v4. On Linux/Unix servers ZendOptimizer is not required but the hosting account 
+	must be able to load IonCube loader files.
+
+	
+
++--------------------------------------------------------
+| 	1. Install Instructions
++--------------------------------------------------------
+
+These install instructions assume you have a web hosting account
+meeting CubeCart's requirements with a MySQL database already created. 
+
+a.  Upload the entire contents of this folder to the desired 
+	location within the public HTML folder of your hosting account.
+	
+	Examples: 
+	
+	/public_html
+	/www/store
+	/htdocs/shop
+	
+b.	From your browser type in the website address to the files which
+	have just been uploaded to and load it. 
+	
+	Examples:
+	
+	http://www.example.com/
+	http://store.example.com/
+	http://www.example.com/shop/
+	
+c.	Ensure that the correct file permissions are set on the files. these should be:
+	
+	Writable (0777):
+		images/uploads/
+		images/uploads/thumbs/
+		includes/extra/
+		cache/
+	
+d. 	If all files have been uploaded successfully and the hosting account
+	is compatible a screen should be presented with the options to install
+	or upgrade. Please select "Install CubeCart" and follow the on screen 
+	instructions.
+	
+e. 	Once complete please delete the /setup folder to keep your store
+	secure.
+	
+f.	After visiting the front or back end of the store you may need to follow
+	part 4 of this read me file.
+	
+For support please visit http://www.cubecart.com
+	
+
++--------------------------------------------------------
+| 	2. Upgrade Instructions - version 4.x to latest version 4
++-------------------------------------------------------- 
+
+a.  Take a FULL backup of your existing files and database and check that 
+	it is complete. This is critical in case the upgrade process fails or
+	there is an error. 
+	
+b.	Upload the entire contents of this folder over your existing files 
+	replacing all existing ones.
+	
+	IMPORTANT: If you renamed your admin folder or admin.php file you must do this prior 
+	to uploading the new files and your store will work as before.  
+	
+c. 	Once that has completed in full please browse to the setup folder of your store. 
+
+	Examples:
+	
+	http://www.example.com/setup/
+	http://store.example.com/setup/
+	http://www.example.com/shop/setup/
+	
+	N.B. FTP can time out so please check the FTP log if available to make sure it
+	completed successfully. 
+	
+d.	If all files have uploaded successfully the setup page should load. Please select 
+	"Upgrade CubeCart" and follow the on screen instructions.
+	
+e. 	Once complete please delete the /setup folder to keep your store
+	secure.
+
+f.	After visiting the front or back end of the store you may need to follow
+	part 4 of this read me file.
+
+For support please visit http://www.cubecart.com
+	
++--------------------------------------------------------
+| 	3. Upgrade Instructions - version 3.0.x to latest version 4
++-------------------------------------------------------- 
+
+a.  Take a FULL backup of your existing files and database and check that 
+	it is complete. This is critical in case the upgrade process fails or
+	there is an error. 
+	
+b.	Please delete the following folders and files:
+
+	Folders:
+	
+	/admin/
+	/classes/
+	/docs/
+	/extra/
+	/js/
+	/language/
+	/modules/
+	/pear/
+	/skins/
+	
+	Files:
+	
+	/cart.php
+	/confirmed.php
+	/download.php
+	/offLine.php
+	/switch.php
+	
+	This should just leave the following folders:
+	/images
+	/includes
+	
+c.	Upload the entire contents of this folder over the remaining files 
+	replacing all existing ones.
+	
+d.	Please make sure the following folders are writable by the web browser. 
+
+	/cache
+	/includes/extra 
+	
+	If you have a Windows Server please ignore this step. If you have a Linux/Unix 
+	environment please make sure these have a chmod value of 0777 or 0775.  
+	
+e. 	Once that has completed in full please browse to the setup folder of your store. 
+
+	Examples:
+	
+	http://www.example.com/setup/
+	http://store.example.com/setup/
+	http://www.example.com/shop/setup/
+	
+	N.B. FTP can time out so please check the FTP log if available to make sure it
+	completed successfully. 
+	
+f.	If all files have uploaded successfully the setup page should load. Please select 
+	"Upgrade CubeCart" and follow the on screen instructions.
+	
+g. 	Once complete please delete the /setup folder to keep your store
+	secure.
+
+h.	After visiting the front or back-end of the store you may need to follow
+	part 4 of this read me file. 
+	
+For support please visit http://www.cubecart.com
+	
++--------------------------------------------------------
+| 	4. Installing IonCube Loaders
++--------------------------------------------------------
+If your server doesn't have the Zend Optimizer you may be 
+prompted with a message such as:
+
+"Site error: the file /path/to/file_enc_ion.php requires 
+the ionCube PHP Loader ioncube_loader_xxx_x.x.so to be 
+installed by the site administrator."
+
+To do this follow this please follow these instructions.
+
+a.	Go to http://www.ioncube.com/loaders.php
+
+b.	Download the suitable archive to your local machine.
+
+c.	Upload the suitable loader file from the extracted 
+	archive to the /ioncube folder. 
+
+	e.g. /ioncube/ioncube_loader_xxx_x.x.so
+
+
+Troubleshooting:
+Please beware that if the loader you have downloaded fails
+there may be an alternative one for different server architectures.
+
+e.g. Linux (x86) vs Linux (x86-64)
+
+For support please visit http://www.cubecart.com
+	
++--------------------------------------------------------

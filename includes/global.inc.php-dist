@@ -1,0 +1,41 @@
+<?php
+/* 
+This is a sample global.inc.php file. To use it please 
+rename to global.inc.php and edit the fields below.
+*/
+## MySQL Database Name e.g. cubecart
+$glob['dbdatabase'] 	= '';
+
+## MySQL Database Hostname e.g. localhost (Can be domain or ip address) 
+$glob['dbhost'] 		= '';
+
+## MySQL Database Prefix e.g. store_1_ prefixed on to table names
+$glob['dbprefix'] 		= '';
+
+## MySQL Username that has access to the db
+$glob['dbusername'] 	= '';
+
+## MySQL Password for username
+$glob['dbpassword'] 	= '';
+
+## set to 1 if store is installed
+$glob['installed'] 		= '0';
+
+## Stores root relative path e.g. /store/ or / (Must have end slash)
+$glob['rootRel'] 		= '';
+
+## Stores absolute path e.g. http://www.example.com/store (Must NOT have end slash)
+$glob['storeURL'] 		= '';
+
+## Change this if you have changed the admin folder name
+$glob['adminFolder']	= 'admin';
+
+## Change this if you have changed the admin file name
+$glob['adminFile'] 		= 'admin.php';
+
+## License Key obtained from https://cp.cubecart.com 
+$glob['license_key']	= ''; 
+
+## Set to either ioncube or zend depending on preferece/server config
+$glob['encoder']		= 'ioncube';
+?>

@@ -1,0 +1,37 @@
+<!-- BEGIN: login -->
+<div id="ContentBox">
+<div class="Title"><h1>{LANG_LOGIN_TITLE}</h1></div>
+<p>{LOGIN_STATUS}</p>
+<!-- BEGIN: form -->
+<form action="index.php?_a=login&amp;redir={VAL_SELF}" target="_self" method="post">
+<table border="0" cellspacing="0" cellpadding="3" align="center">
+<tr>
+<td align="right"><strong>{LANG_USERNAME}</strong></td>
+<td><input type="text" name="username" class="textbox" value="{VAL_USERNAME}" /></td>
+</tr>
+			
+<tr>
+<td align="right"><strong>{LANG_PASSWORD}</strong></td>
+<td><input type="password" autocomplete="off" name="password" class="textbox" /></td>
+</tr>
+
+<tr>
+<td align="right">{LANG_REMEMBER}</td>
+<td><input name="remember" type="checkbox" value="1" {CHECKBOX_STATUS} /></td>
+</tr>
+			
+			
+<tr>
+<td>&nbsp;</td>
+<td><a href="index.php?_a=forgotPass" title="{LANG_FORGOT_PASS}" class="txtLink">{LANG_FORGOT_PASS}</a></td>
+<tr>
+</table>
+
+<div class="BlueBg">
+<div class="Prompt"><a href="index.php?_g=co&amp;_a=reg" title="{LANG_REGISTER}" class="txtLinkPass">{LANG_REGISTER}</a></div>
+<div class="ButtonRt"><input name="submit" type="submit" value="{TXT_LOGIN}" class="submit" /></div>
+</div>
+</form>
+<!-- END: form -->
+</div>
+<!-- END: login -->

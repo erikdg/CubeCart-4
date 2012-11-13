@@ -1,0 +1,176 @@
+CubeCart ChangeLog
+The original bug reports and full ChangeLog can be viewed at http://bugs.cubecart.com/
+
+CubeCart v4 - 4.3.4
+===================
+- 0001167: [Checkout] gift certificates are marked digital download (martin) - resolved.
+- 0001471: [Checkout] PayPal Confusing Error Message (al) - resolved.
+- 0001588: [Checkout] PayPal session is not handled properly (martin) - resolved.
+- 0001444: [Admin Control Panel] Order Completed sent to customer (al) - resolved.
+- 0001453: [Checkout] I do not wish to create an account tick box does not stay ticked (al) - resolved.
+- 0001237: [Admin Control Panel] Product review stars unreliable in admin. (martin) - resolved.
+- 0001516: [Checkout] Phantom orders (martin) - resolved.
+- 0001227: [Admin Control Panel] Product Filter Results Incomplete (martin) - resolved.
+- 0001226: [Shipping Modules] USPS - unable to use shipping ZIP/POST code once BILLING address is different. (al) - resolved.
+- 0001474: [Checkout] Tax Calculated In Admin / Packing Slip / Print Order Form When It Shouldn't Be (al) - resolved.
+- 0001266: [Basket] Need Asterisk near Secure code (al) - resolved.
+- 0001534: [Checkout] Last Page of Checkout (Confirmation Screen) (martin) - resolved.
+- 0001571: [Admin Control Panel] Courier Tracking URL (al) - resolved.
+- 0001536: [Skins] Caretta Soft IE8 Bugs (al) - resolved.
+- 0001538: [Shipping Modules] Print Order From Missing Comment (al) - resolved.
+- 0001580: [Checkout] No message to customer once Gift Voucher is used up (al) - resolved.
+- 0001567: [Interface] Cookies aren't set properly in Firefox on localhost (al) - resolved.
+- 0001514: [SEO] URL Generation error with generateProductUrl (martin) - resolved.
+- 0001256: [Admin Control Panel] Product options + long product names in firefox. (al) - resolved.
+- 0001393: [Checkout] Coupons (al) - resolved.
+- 0001272: [SEO] Search Engine Friendly URLs and Pagination (martin) - resolved.
+- 0001491: [Interface] Change Password Parse Error (al) - resolved.
+- 0001400: [Checkout] Voucher Fraud issue (martin) - resolved.
+- 0001286: [Catalogue] Product Category not showing correct number (martin) - resolved.
+- 0001577: [MySQL/Database] MySQL Injection using OR or AND at the beginning of a query (martin) - resolved.
+- 0001576: [Shipping Modules] Under the Shipping Methods/USPS Shipping (martin) - resolved.
+- 0001279: [Payment Gateways] Amount paid didn't match amount on invoice (martin) - resolved.
+- 0001560: [Payment Gateways] eWay module: Names/Addresses with special characters cause errors (martin) - resolved.
+- 0001561: [Payment Gateways] eWay module: When test mode enabled, module should use eWays test customer id. (martin) - resolved.
+- 0001566: [SEO] Meta description isn't getting populated from the product description when product specific description is not set. (martin) - resolved.
+- 0001572: [Payment Gateways] PayPal Express Checkout customer details data mixture (martin) - resolved.
+- 0001554: [Interface] Lightbox problem (martin) - resolved.
+- 0001492: [Checkout] Once order is paid and customer visits the basket it is not empty but last order inventory filled (martin) - resolved.
+- 0001548: [Catalogue] Sale Items link in Shop By Category box always shown (martin) - resolved.
+- 0001517: [Basket] lightbox.css breaks SSL pages (martin) - resolved.
+- 0001518: [Checkout] Flexible Taxes Debug Mode Prevents Redirects From Working Within /includes/content/cart.inc.php (martin) - resolved.
+- 0001519: [Languages] Message 10001 In language/en/includes/content/error.inc.php (martin) - resolved.
+- 0001464: [Checkout] Checkout-Flow (al) - resolved.
+- 0001524: [Interface] viewOrder.inc.php does not assign a value to {TD_CLASS} (martin) - resolved.
+- 0001528: [Skins] error in html code (martin) - resolved.
+- 0001530: [Admin Control Panel] MIssing proxy settings in currency update code (martin) - resolved.
+- 0001533: [Interface] Gateway template language file %s place holder (martin) - resolved.
+- 0001396: [Admin Control Panel] CubeCart_inventory.noImages returns incorrect image count (martin) - resolved.
+- 0001523: [Languages] Typo in the order confirmation page (martin) - resolved.
+- 0001573: [Payment Gateways] Paypal Pro issues - 3D Secure now required! (martin) - resolved.
+- 0001575: [Catalogue] Search Bug (martin) - resolved.
+- 0001569: [Admin Control Panel] DB Email address length too short (martin) - resolved.
+- 0001568: [Admin Control Panel] Missing /js/sound.js file from Scriptaculous (martin) - resolved.
+- 0001562: [Skins] Category images not showing... SEO URLs related (martin) - resolved.
+- 0001558: [Checkout] PayPal alternate checkout option set as default once only standard gateway in use set as default (martin) - resolved.
+- 0001557: [Checkout] Product option value of "0" (e.g. Size: 0) does not work (martin) - resolved.
+- 0001556: [Interface] Old Google Analytics Code (martin) - resolved.
+- 0001559: [Checkout] Phone number validation is too strict (martin) - resolved.
+- 0001550: [Basket] Failure to add product options properly when they contain @ (at), : (colon) or | (pipe) (al) - closed.
+- 0001578: [Admin Control Panel] ShpoZilla export messed up (al) - closed.
+
+CubeCart v4 - 4.3.3
+===================
+- 0001585: [Admin Control Panel] Flexible taxes are not working properly (al) - resolved.
+- 0001395: [Checkout] Product name with backslashes (due to quotes) prevents customer from placing an order (al) - resolved.
+- 0001475: [Admin Control Panel] Can't Get & Symbol To Display In Site Docs (al) - resolved.
+- 0001479: [Affiliate Modules] idevAffiliate login to idevAff form wrong url (al) - resolved.
+- 0001489: [Admin Control Panel] £, € display problem after upgrade (al) - resolved.
+
+CubeCart v4 - 4.3.2
+===================
+- 0001462: [Catalogue] The word "null" Appears In Lightbox Image Using IE8 (al) - resolved.
+- 0001459: [Catalogue] customer log in and always automatically logs out (martin) - resolved.
+- 0001392: [Admin Control Panel] Admin user with no permissions to delete or edit can mass-delete products using tick boxes (al) - closed.
+- 0001434: [Admin Control Panel] Tax not shown in order (al) - closed.
+- 0001446: [Admin Control Panel] Shopzilla export leaves spaces in image names (al) - closed.
+- 0001468: [Admin Control Panel] Product Options - Truncating text on edit Option name & Attribute (al) - closed.
+- 0001456: [Admin Control Panel] Delivery address apostrophes writing to database as &0000039; instead of ' (al) - closed.
+- 0001448: [Admin Control Panel] Admin inventory search - trailing space in query causes inaccurate search result (al) - closed.
+- 0001443: [Basket] Function getOrderSum() in order class does not read customer details from order_sum table (al) - closed.
+- 0001415: [Basket] Users could not login (al) - closed.
+- 0001414: [Admin Control Panel] Trimmed lang records in Languages part (al) - closed.
+
+CubeCart v4 - 4.3.1
+===================
+- 0001356: [Basket] Firefox ccUser cookie disappears on logout, IE cookie does not - shopping basket can only be saved in IE (al) - resolved.
+- 0001332: [Interface] SELECT command denied to user 'xxxxxx'@'localhost' for table 'CubeCart_currencies' (al) - closed.
+- 0001289: [Admin Control Panel] Adding Product Category (al) - closed.
+- 0001330: [Admin Control Panel] "Don't resize image" option overwritten in upgrade? (al) - closed.
+- 0001284: [Admin Control Panel] Please move the "Delete copyright key" button (al) - closed.
+- 0001282: [Admin Control Panel] Test email in bulk email feature not sent (al) - closed.
+- 0001262: [Catalogue] Customer Also Bought number of products is not limited (al) - closed.
+- 0001345: [Admin Control Panel] Requested URL Not Found When Managing Product Images (al) - closed.
+- 0001346: [Shipping Modules] USPS module returning error messages that are not the slightest bit useful (al) - closed.
+- 0001359: [Admin Control Panel] Need Stripslashes in Meta data textboxes (al) - closed.
+- 0001352: [Admin Control Panel] GD class resize functions issue (al) - closed.
+- 0001353: [Catalogue] currentPage() returns wrong GET parameters once array in GET parameter used (al) - closed.
+- 0001360: [Languages] Language es/inlcudes/content/error.inc.php issue (al) - closed.
+- 0001337: [Admin Control Panel] Product Options - blank option names in third table (al) - closed.
+- 0001333: [Checkout] PayPal button image not alligned right in FireFox 3 (al) - closed.
+- 0001351: [Checkout] Orders set to Declined when using Card Capture gateway (and possibly other gateways) (al) - closed.
+- 0001329: [Admin Control Panel] Inventory search using apostrophies shows backslash (al) - closed.
+- 0001292: [Admin Control Panel] Admin Product Name Search includes description text (al) - closed.
+- 0001287: [Admin Control Panel] Invalid Type on Link to PDF/DOC file (al) - closed.
+- 0001358: [Admin Control Panel] Flexible taxes in admin order related files (al) - closed.
+- 0001363: [Basket] Can't add to cart (al) - closed.
+- 0001368: [Admin Control Panel] Unapproved Reviews on admin page shows unapproved reviews for already deleted products (al) - closed.
+- 0001373: [Basket] some clients are not able to go to basket // basket empty (al) - closed.
+- 0001375: [Feature Request] Minor tweaks to ini.inc.php file (al) - closed.
+- 0001342: [Admin Control Panel] Warning: getimagesize When Clicking On Thumbnail (al) - closed.
+- 0001341: [Admin Control Panel] Password Reset for Customer Dosent Work (al) - closed.
+- 0001377: [Admin Control Panel] iDevAffiliate URL (al) - closed.
+- 0001378: [Admin Control Panel] Email Software destroys links and images in Cubecart 4.3 (al) - closed.
+- 0001371: [Admin Control Panel] Delete orphaned thumbnails feature deletes any thumbnail of subfolder related images (al) - closed.
+- 0001379: [Basket] Gift Certificate - htmlentidies in message (al) - closed.
+- 0001364: [Admin Control Panel] Product Option Behaviour (al) - closed.
+- 0001215: [Languages] New language items are not shown (al) - closed.
+- 0001285: [Checkout] Add to shopping basket bug (al) - closed.
+- 0001274: [Checkout] Remote IP not quite right (al) - closed.
+- 0001381: [Admin Control Panel] Check Vouchers are Shown in Admin CP after order (al) - closed.
+- 0001369: [Catalogue] Zeus Web Server Compatibility (al) - closed.
+- 0001264: [Admin Control Panel] Packing Slip - apostrophe in product options as html entity number shown (al) - closed.
+
+CubeCart v4 - 4.3.0
+===================
+- 0001188: [Payment Gateways] Card Capture not accepting security code (martin) - resolved.
+- 0001198: [Interface] Security image nor Print order form does not work on win servers - limited files can be accessed this way for security reasons (martin) - resolved.
+- 0001076: [Admin Control Panel] Problem with editing product options in the product inventory page. (martin) - resolved.
+- 0001223: [Checkout] Customers cannot select a product to the cart without a page change emptying the cart. (martin) - resolved.
+- 0001085: [Admin Control Panel] Order status does not change to complete upon download in regard to Bug 1006 - closed.
+- 0001175: [Admin Control Panel] Admin - Maintenance - Rebuild & Recount - update Image Database produces error (al) - closed.
+- 0001207: [Checkout] PayPal Direct Payment Only (al) - closed.
+- 0001191: [Payment Gateways] PayPal - function logTransaction isn't defined anywhere? (martin) - closed.
+- 0001192: [Catalogue] Shopping cart changes to allow floating point quantities (martin) - closed.
+- 0001196: [Catalogue] Product options are not listed in a sequential order (martin) - closed.
+- 0001220: [Interface] Tag error on login.tpl (martin) - closed.
+- 0001225: [Admin Control Panel] Warning: set_time_limit() appears on Rebuild category product count page (al) - closed.
+- 0001189: [Payment Gateways] Card Capture showing XXX for all data fields (martin) - closed.
+- 0001218: [Shipping Modules] Canada Post missing handling (al) - closed.
+- 0001186: [Catalogue] Buy buttons on products that are viewed in product category page do not work if they have product options assigned to them. (martin) - closed.
+- 0001230: [Payment Gateways] call.inc.php line 114, variable $postal_code incorrect set (al) - closed.
+- 0001216: [Interface] Bulk Email - Return Path not being used (martin) - closed.
+- 0001213: [MySQL/Database] Related Products Query (al) - closed.
+- 0000997: [Payment Gateways] Credit Cards payment module validation requires Issue Date for Laser Card (martin) - closed.
+- 0001249: [Interface] global include closed.inc.php not used to show offLineContent when site is closed. (al) - closed.
+- 0001235: [Admin Control Panel] FCK Editor Broken in Firefox 3 (al) - closed.
+- 0001224: [Admin Control Panel] Possible to create categories whose parent category forms a loop (al) - closed.
+- 0001201: [Admin Control Panel] Rebuild of database fails when there is an image in a subfolder (al) - closed.
+- 0001147: [Checkout] backing out of paypal checkout dumps cart (al) - closed.
+- 0001142: [Admin Control Panel] sslSwitchInc.php is wrong (al) - closed.
+- 0001232: [Admin Control Panel] FCK insert links not working (al) - closed.
+- 0001259: [Interface] Internet Explorer no SSL padlock displayed on Registration page once Script/Bot Flood Control is used (al) - closed.
+- 0001205: [Checkout] Back spaces in product code makes mess on cart pages (al) - closed.
+- 0001030: [Feature Request] Suggestion to speed up "Other customer also bought" feature (al) - closed.
+- 0000794: [Interface] SO SLOW (al) - closed.
+- 0001178: [Checkout] After upgrading to 4.2.3, basket contents are lost by returning from step 3 to step 2 (al) - closed.
+- 0001248: [Admin Control Panel] Alternate images when removed are not updating img_idx table (al) - closed.
+- 0001231: [Admin Control Panel] When deleting an option value sometimes the associated product options are not removed from products (al) - closed.
+- 0001243: [Payment Gateways] Transactions not recorded using PayPal Standard (al) - closed.
+- 0001250: [Checkout] Cancel and Return to Street Tuned (al) - closed.
+- 0001154: [Admin Control Panel] Export issue, CSV is too limited as any product description containing commas destroys formatting (al) - closed.
+- 0001203: [Catalogue] forgotPass email blocked, even when i tried to tweak (al) - closed.
+- 0001255: [Shipping Modules] Tax on shipping is counted once Add sales tax to customers who qualify is set to NO (al) - closed.
+- 0001219: [Admin Control Panel] Broken CubeCart CSV file in Export Catalogue (al) - closed.
+- 0001180: [Checkout] Apostrophes showing up as a HTML character in the Delivery Details (al) - closed.
+- 0001247: [SEO] Blank Global Browser Title makes mess once Meta Data Behaviour is other than disabled (al) - closed.
+- 0001209: [Interface] Bulk Email - Apostrophies problem in email subject (al) - closed.
+- 0001222: [Languages] Missing and misplaced language element in the Edit Delivery page. (al) - closed.
+- 0001241: [Interface] Store Search - Pagination problem on price sort for search results (al) - closed.
+- 0001236: [Admin Control Panel] update order status fatal error (al) - closed.
+- 0001006: [Payment Gateways] Duplicate Paypal payments processed (al) - closed.
+- 0001214: [Admin Control Panel] Post Delete Pagination (al) - closed.
+- 0001208: [Admin Control Panel] Bulk Email FCK-Editor images give bad URL (al) - closed.
+
+==================
+A more extensive ChangeLog can be found at http://bugs.cubecart.com/changelog_page.php

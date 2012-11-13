@@ -1,0 +1,1 @@
+a:6:{s:4:"type";s:7:"gateway";s:4:"name";s:8:"HSBC API";s:7:"version";s:3:"1.3";s:11:"description";s:20:"HSBC Payment Gateway";s:6:"author";s:13:"Devellion Ltd";s:3:"url";s:0:"";}
